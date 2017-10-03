@@ -33,6 +33,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Alignments
 # Clearings
 # Widgets
+# Animations
 # Content
 	## Header
 	## Posts and pages
@@ -266,7 +267,7 @@ select,
 optgroup,
 textarea {
 	color: #404040;
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;	
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
@@ -274,6 +275,9 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 100;
 }
 
 p {
@@ -641,13 +645,13 @@ a:hover, a:active {
 .alignleft {
 	display: inline;
 	float: left;
-	margin-right: 1.5em;
+	text-align: left;
 }
 
 .alignright {
 	display: inline;
 	float: right;
-	margin-left: 1.5em;
+	text-align: right;
 }
 
 .aligncenter {
@@ -699,6 +703,52 @@ a:hover, a:active {
 }
 
 /*--------------------------------------------------------------
+# Animations
+--------------------------------------------------------------*/
+
+.fade-in {
+opacity: 0;
+-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+-moz-animation: fadein 2s; /* Firefox < 16 */
+ -ms-animation: fadein 2s; /* Internet Explorer */
+	-o-animation: fadein 2s; /* Opera < 12.1 */
+		 animation: fadein 2s;
+		 -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+		 animation-delay: 2s;
+		 		 
+		 
+}
+
+@keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+/*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
 
@@ -712,6 +762,30 @@ a:hover, a:active {
 ## Header
 --------------------------------------------------------------*/
 
+.site-logo {
+	margin: 0 auto 0 auto;
+	font-size: 0px;
+	max-width: 85px;
+	transition: 1s;
+	transition-delay: 0s;
+}
+
+.site-logo svg {
+	fill: none;
+	stroke: #F2EFDE;
+	stroke-width: 10px;
+	stroke-miterlimit: 10;
+	max-width: 50%;
+	padding: 0 5px 0 5px;
+}
+
+.logo-text {
+	padding: 1em;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	letter-spacing: 1em;
+
+}
 
 
 /*--------------------------------------------------------------
