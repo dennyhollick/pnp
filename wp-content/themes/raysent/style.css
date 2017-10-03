@@ -34,6 +34,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Clearings
 # Widgets
 # Content
+	## Header
 	## Posts and pages
 	## Comments
 # Infinite scroll
@@ -700,6 +701,19 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+
+.section-blue {
+	background-color: #1a2c46;
+	color: #f2efde;
+}
+
+
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+
+
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
@@ -775,6 +789,29 @@ object {
 .custom-logo-link {
 	display: inline-block;
 }
+
+.max-width-wrapper{
+	margin: 0 auto;
+	max-width: 290px;
+	position: relative;}
+@media(min-width:375px){
+	.max-width-wrapper{
+			max-width: 345px;}}
+@media(min-width:425px){
+	.max-width-wrapper{
+			max-width: 395px;}}
+@media(min-width:768px){
+	.max-width-wrapper{
+			max-width: 678px;}}
+@media(min-width:1025px){
+	.max-width-wrapper{
+			max-width: 905px;}}
+@media(min-width:1200px){
+	.max-width-wrapper{
+			max-width: 1050px;}}
+@media(min-width:1300px){
+	.max-width-wrapper{
+			max-width: 1150px;}}
 
 /*--------------------------------------------------------------
 ## Captions

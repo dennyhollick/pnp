@@ -23,8 +23,9 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'raysent' ); ?></a>
-
-	<header id="masthead" class="site-header">
+	<div class="max-width-wrapper">
+	<header id="masthead" class="site-header section-blue">
+		<h5 id="masthead_left">Contact</h5>
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
@@ -52,5 +53,6 @@
 			?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
+	</div>
 
 	<div id="content" class="site-content">
