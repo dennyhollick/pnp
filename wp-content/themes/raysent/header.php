@@ -24,12 +24,12 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'raysent' ); ?></a>
 		<div class="max-width-wrapper">
 			<!-- #masthead -->
-			<header id="masthead" class="site-header">
+			<header id="masthead" class="second site-header">
 				
 				<div class="pure-g">
 					
 					<!-- left-links -->
-					<div id="masthead-left" class="pure-u-1-3 fade-in">
+					<div id="masthead-left" class="pure-u-1-3">
 						<h6>Contact</h6>
 					</div>
 					
@@ -40,7 +40,7 @@
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 258.5 321" style=""><path class="site-logo-svg WegPqqxq_0" d="M2 316.2L244.2 227 7.1 132V7.6l237.1 94.9L1.8 191.7" style="max-width:50%;padding:0 5px 0 5px" stroke-dasharray="1152, 1154" fill="none" stroke="#F2EFDE" stroke-width="10" stroke-miterlimit="10"></path><style>.WegPqqxq_0{stroke-dasharray:1152 1154;stroke-dashoffset:1153;animation:WegPqqxq_draw 1333ms linear 0ms forwards;}@keyframes WegPqqxq_draw{100%{stroke-dashoffset:0;}}@keyframes WegPqqxq_fade{0%{stroke-opacity:1;}93.54838709677419%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>
 						</div>
 						<div>
-							<h4 class="logo-text">RAYSENT</h4>
+							<h4 class="logo-text" style="display:none">RAYSENT</h4>
 						</div>
 					</div>
 
@@ -55,10 +55,3 @@
 
 	<div id="content" class="site-content section-blue">
 
-	<script type="text/javascript">
-        function codeAddress() {
-					new Vivus('site_logo_left', {duration: 200}, myCallback);
-					new Vivus('site_logo_right', {duration: 200}, myCallback);
-        }
-        window.onload = codeAddress;
-        </script>
