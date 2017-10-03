@@ -125,6 +125,10 @@ function raysent_scripts() {
 
 	wp_enqueue_script( 'vivus', 'https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.2/vivus.min.js');
 
+	wp_enqueue_script( 'jquery', 'https://code.jquery.com/jquery-3.2.1.min.js');
+
+	wp_enqueue_script( 'animation-loader', get_template_directory_uri() . '/js/animation-loader.js', array( 'jquery' ), '1.0.0', true );
+
 	wp_enqueue_script( 'raysent-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'raysent-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
