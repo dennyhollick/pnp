@@ -121,7 +121,7 @@ function raysent_scripts() {
 
 	wp_enqueue_style( 'pure-min', 'https://unpkg.com/purecss@1.0.0/build/pure-min.css');
 
-	wp_enqueue_style( 'pure-min', 'https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700,900');
+	wp_enqueue_style( 'Montserrat', 'https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700,900');
 
 	wp_enqueue_script( 'vivus', 'https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.2/vivus.min.js');
 
