@@ -68,6 +68,14 @@ get_header(); ?>
     </div>
   </div>
   <img class="hero-photo second" src="/wp-content/themes/raysent/raysent-led-light-homepage.jpg">
+  <figure id="landing_lines" class="third">
+            <span class="line" style="box-shadow: rgba(242, 239, 222, 0.82) 0px 0px 10px, rgba(242, 239, 222, 0.82) 0px 0px 10px, rgba(242, 239, 222, 0.82) 0px 0px 10px;"></span>
+            <span class="line" style="box-shadow: rgba(242, 239, 222, 0.82) 0px 0px 10px, rgba(242, 239, 222, 0.82) 0px 0px 10px, rgba(242, 239, 222, 0.82) 0px 0px 10px;"></span>
+            <span class="line" style="box-shadow: rgba(242, 239, 222, 0.82) 0px 0px 10px, rgba(242, 239, 222, 0.82) 0px 0px 10px, rgba(242, 239, 222, 0.82) 0px 0px 10px;"></span>
+            <span class="line" style="box-shadow: rgba(242, 239, 222, 0.82) 0px 0px 10px, rgba(242, 239, 222, 0.82) 0px 0px 10px, rgba(242, 239, 222, 0.82) 0px 0px 10px;"></span>
+            <span class="line" style="box-shadow: rgba(242, 239, 222, 0.82) 0px 0px 10px, rgba(242, 239, 222, 0.82) 0px 0px 10px, rgba(242, 239, 222, 0.82) 0px 0px 10px;"></span>
+            <span class="line" style="box-shadow: rgba(242, 239, 222, 0.82) 0px 0px 10px, rgba(242, 239, 222, 0.82) 0px 0px 10px, rgba(242, 239, 222, 0.82) 0px 0px 10px;"></span>
+  </figure>
 </div>
 
 
