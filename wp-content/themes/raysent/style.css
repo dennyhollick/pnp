@@ -275,8 +275,7 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
-	letter-spacing: 1px;
-	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;	
 	font-weight: 100;
 }
 
@@ -395,6 +394,18 @@ figure {
 table {
 	margin: 0 0 1.5em;
 	width: 100%;
+}
+
+.small-letter-spacing {
+	letter-spacing: .1em;
+}
+
+.medium-letter-spacing {
+	letter-spacing: .3em;
+}
+
+.large-letter-spacing {
+	letter-spacing: .5em;
 }
 
 /*--------------------------------------------------------------
@@ -785,13 +796,60 @@ to   { opacity: 1; }
 }
 
 .logo-text {
-	padding: 1em;
+	font-weight: 100;
+	letter-spacing: .5em;	
 	margin: 0 auto 0 auto;
 	text-align: center;
-	letter-spacing: 1em;
+	font-size: 12px;
+	padding: 1em 0 1em 0;}
+	@media (min-width: 1000px) {
+		.logo-text{
+			font-size: 16px;
+			font-size: 1vw;
+			padding: 1em;
+		}
+	}
 
+/*--------------------------------------------------------------
+## Front-Page
+--------------------------------------------------------------*/
+
+.hero-background-wrapper {
+	height: 80vh;
+	min-height: 600px;
+	z-index: -100
 }
 
+.hero-wrapper {
+	padding-top: 20vh;
+	text-align: center;
+	z-index: 1000;
+}
+
+.hero-photo {
+	z-index: 1;
+	margin-top: -100px;
+}@media (min-width: 600px) {
+	.hero-photo{
+		float: right;
+		padding-right: 50px;
+		max-width: 60vw;
+		margin-top: -100px;
+	}
+}	
+@media (min-width: 1100px) {
+	.hero-photo{
+		float: right;
+		padding-right: 200px;
+		max-width: 50vw;
+		margin-top: -100px;
+		max-height: 45vh;
+	}
+}
+
+.svg-title {
+	padding: 2em 0 1em 0;
+}
 
 /*--------------------------------------------------------------
 ## Posts and pages
