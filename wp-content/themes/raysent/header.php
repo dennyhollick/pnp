@@ -20,8 +20,9 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site section-blue">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'raysent' ); ?></a>
+<div id="page" class="site">
+	<div class="section-blue">
+		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'raysent' ); ?></a>
 		<div class="max-width-wrapper">
 			<!-- #masthead -->
 			<header id="masthead" class="site-header">
@@ -29,8 +30,8 @@
 				<div class="pure-g">
 					
 					<!-- left-links -->
-					<div id="masthead-left" class="pure-u-1-3 second">
-						<h6>Contact</h6>
+					<div id="masthead-left" class="pure-u-1-3 third">
+						<h6 class="medium-letter-spacing">ORDER NOW</h6>
 					</div>
 					
 					<!-- .site-branding -->
@@ -40,18 +41,18 @@
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 258.5 321" style=""><path class="site-logo-svg WegPqqxq_0" d="M2 316.2L244.2 227 7.1 132V7.6l237.1 94.9L1.8 191.7" style="max-width:50%;padding:0 5px 0 5px" stroke-dasharray="1152, 1154" fill="none" stroke="#F2EFDE" stroke-width="10" stroke-miterlimit="10"></path><style>.WegPqqxq_0{stroke-dasharray:1152 1154;stroke-dashoffset:1153;animation:WegPqqxq_draw 1333ms linear 0ms forwards;}@keyframes WegPqqxq_draw{100%{stroke-dashoffset:0;}}@keyframes WegPqqxq_fade{0%{stroke-opacity:1;}93.54838709677419%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>
 						</div>
 						<div>
-							<h4 class="logo-text second">RAYSENT</h4>
+							<h4 class="logo-text third">RAYSENT</h4>
 						</div>
 					</div>
 
 					<!-- right-links -->
-					<div id="masthead-right" class="pure-u-1-3 alignright second">
-						<h6>EN | 中文</h6>
+					<div id="masthead-right" class="pure-u-1-3 alignright third">
+						<h6 class="medium-letter-spacing">EN | 中文</h6>
 					</div>
 
 				</div>
 			</header><!-- #masthead-end -->
 		</div>
-
-	<div id="content" class="site-content section-blue">
+	</div>	
+	<div id="content" class="site-content">
 
